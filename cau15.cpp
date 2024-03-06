@@ -9,8 +9,8 @@ int main()
     std::cout << "Nhập giá trị cho b: ";
     std::cin >> b;
 
-    double numerator = (a + b) / (sqrt(a) + sqrt(b)) - sqrt(a * b);
-    double denominator = pow(sqrt(a) - sqrt(b), 2);
+    double numerator = (a + b) / (cbrt(a) + cbrt(b)) - cbrt(a * b);
+    double denominator = pow(cbrt(a) - cbrt(b), 2);
 
     // Tính giá trị của biểu thức
     double result = numerator / denominator;
