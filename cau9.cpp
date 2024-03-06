@@ -19,23 +19,5 @@ int main()
     // In kết quả ra màn hình
     cout << "Chi so BMI cua ban la: " << bmi << endl;
 
-    // Phân loại BMI
-    if (bmi < 18.5)
-    {
-        cout << "Ban dang bi thieu can." << endl;
-    }
-    else if (bmi >= 18.5 && bmi < 25)
-    {
-        cout << "Ban co can nang ly tuong." << endl;
-    }
-    else if (bmi >= 25 && bmi < 30)
-    {
-        cout << "Ban dang bi thua can." << endl;
-    }
-    else
-    {
-        cout << "Ban bi beo phi." << endl;
-    }
-
     return 0;
 }
